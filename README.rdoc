@@ -11,7 +11,7 @@ run `observr koans.watchr`
  x  about_arrays.rb
  x  about_array_assignment.rb
  x  about_hashes.rb
-    about_strings.rb
+ x  about_strings.rb
     about_symbols.rb
     about_regular_expressions.rb
     about_methods.rb
