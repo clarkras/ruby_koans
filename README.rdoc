@@ -4,6 +4,9 @@
 
 run `observr koans.watchr`
 
+To view current progress:
+`rake`
+
 === Progress
  x  about_asserts.rb
  x  about_nil.rb
@@ -12,7 +15,7 @@ run `observr koans.watchr`
  x  about_array_assignment.rb
  x  about_hashes.rb
  x  about_strings.rb
-    about_symbols.rb
+ x  about_symbols.rb
     about_regular_expressions.rb
     about_methods.rb
     about_keyword_arguments.rb
