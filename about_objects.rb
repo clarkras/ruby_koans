@@ -22,7 +22,8 @@ class AboutObjects < Neo::Koan
 
   def test_every_object_has_an_id
     obj = Object.new
-    assert_equal Integer, obj.object_id.class
+    # My home version of ruby is 2.3.7p456, and object_id is an Integer.
+    assert_equal true, [Fixnum, Integer].include?(obj.object_id.class)
   end
 
   def test_every_object_has_different_id
